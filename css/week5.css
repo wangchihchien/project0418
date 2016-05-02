@@ -98,14 +98,12 @@ img#logo{
 .content{
 	width: 800px;
 	margin-top: 40px;
-	
 }
 
 .slider img{
 	width: 570px;
 	height: 300px;
 	float: left;
-
 }
 
 .SpecialProgram{
@@ -193,37 +191,43 @@ img#logo{
 }
 
 
-.event{
-	width:300px;
-  	height:100px;
-	float: right;
-	font-size: 15px;
-	line-height: 20px;
-	margin-top:0px;
- 	margin-right: 60px;
- 	float: right;
-
 }
 
-.event p a{
-	font-weight: bolder;
-	font-size: 18px;
-}
-
-.event li a{
-	margin-right: 10px;
-}
 .event1{
+	width: 400px;
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 10px;
+	
+}
+.event img{
+	width: 200px;
+}
+.event1 p{
+	width: 380px;
+	display:inline;
+
+}
+
+.event1 p a{
+	font-weight: bolder;
 }
 
 .event2{
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 10px;
+	display:inline;
 }
-.contect{
 
+.event2 p{
+	width: 400px;
+	display:inline;
+}
+
+.event2 p a{
+	font-weight: bolder;
+}
+
+.contect{
 	float: right;
 	width: 200px;
 	height: 500px;
@@ -270,7 +274,6 @@ img#logo{
 	height: 300px;
 	margin-top: 50px;
 	float: left;
-
 }
 
 
@@ -301,11 +304,9 @@ img#logo{
 }
 
 .footer {
-  
   padding-top:20px;
   width:800px;
   height:50px;
-  
   text-align:center;
   font-size:12px;
   line-height: 20px;
@@ -314,4 +315,105 @@ img#logo{
 
 .footer a {
   color:#0099CC;
+}
+
+@media only screen and (max-width: 767px) {
+.wrap{
+	width:100%;
+	margin:0px 0 0 0;
+}
+
+.header{
+	height: auto;
+}
+
+img#logo{
+	position: relative;
+}
+
+.menu li{
+	width: 80px;
+	float: right;
+	margin: 5px;
+	float:none;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+
+
+.social{
+	float: right;
+	margin-left: 30px;
+	float:none;
+	margin-top: 10px;
+}
+
+.content{
+	float: none;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.slider img{
+	max-width:65%;
+	float: none;
+	height: auto;
+	margin: 
+}
+
+
+.SpecialProgram{
+	margin-left:550px;
+	background: #272727;
+	max-width:65%;
+	position: relative;
+	float: right;
+}
+
+.introduction {
+	background-color: white;
+	max-width:90%;
+	color: black;
+	font-family: Calibri;
+	font-size: 15px;
+	margin:10px 10px 30px 10px;
+	padding: 10px 0px 10px 10px;
+}
+
+.event{
+	max-width:80%;
+	float: none;
+	font-size: 15px;
+	line-height: 20px;
+	margin:auto;
+ 	float: right;
+
+}
+
+
+
+.footer {
+  padding-top:20px;
+  max-width:80%;
+  text-align:center;
+  font-size:12px;
+  line-height: 20px;
+  font-family:Calibri;  
+}
+
+.service {
+  	max-width:100%;
+ 	float: none;
+ 	color:black;
+ 	font-size:16px;
+  	font-family:Calibri;
+  	padding:20px 20px 20px 20px; 
+}
+
+.find_us{
+	max-width:100%;
+	margin-top: 50px;
+	float: none;
+	padding-left: 20px;
 }
